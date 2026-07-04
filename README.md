@@ -62,7 +62,7 @@ GEMINI_API_KEY=<你的金鑰>
 npm start
 ```
 
-瀏覽器開啟 **http://localhost:3000**,按「開始字幕」:
+瀏覽器開啟 `http://localhost:3000`,按「開始字幕」:
 
 1. 允許麥克風存取
 2. 選擇含有對方聲音的分頁,**務必勾選「分享分頁音訊」**(預設不勾;沒勾會拿到無聲串流且不報錯)
@@ -166,7 +166,7 @@ Start:
 npm start
 ```
 
-Open **http://localhost:3000** in the browser and click "Start subtitles":
+Open `http://localhost:3000` in the browser and click "Start subtitles":
 
 1. Allow microphone access
 2. Pick the tab that carries the other party's voice, and **make sure to check "Share tab audio"** (unchecked by default; if left unchecked you get a silent stream with no error)
