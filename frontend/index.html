@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Meeting Translator</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="controls">
+    <button id="startBtn">▶ 開始字幕</button>
+    <button id="stopBtn" disabled>■ 停止</button>
+    <span id="status">就緒 — 按「開始字幕」授權麥克風與分頁音訊</span>
+  </div>
+  <div id="hint">
+    ⚠️ 分享分頁音訊時，請記得勾選「<strong>分享分頁音訊</strong>」（預設不勾，未勾會拿到靜音且不報錯）
+  </div>
+  <div id="subtitles"></div>
+  <script src="https://cdn.jsdelivr.net/npm/onnxruntime-web@1.22.0/dist/ort.wasm.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@ricky0123/vad-web@0.0.29/dist/bundle.min.js"></script>
+  <script src="main.js"></script>
+</body>
+</html>
