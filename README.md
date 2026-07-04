@@ -45,7 +45,7 @@
 
 ```sh
 git clone <repo-url>
-cd meeting-live-translator
+cd live-subtitle-translator-public
 npm install
 copy .env.example .env    # macOS/Linux 用 cp
 ```
@@ -149,7 +149,7 @@ If you want the other party to see the subtitles too, simply share the subtitle 
 
 ```sh
 git clone <repo-url>
-cd meeting-live-translator
+cd live-subtitle-translator-public
 npm install
 copy .env.example .env    # use cp on macOS/Linux
 ```

@@ -1,7 +1,7 @@
 {
-  "name": "meeting-translator",
+  "name": "live-subtitle-translator",
   "version": "0.1.0",
-  "description": "Real-time bilingual meeting subtitle tool (Topology C)",
+  "description": "Live speech-translation subtitle tool (bilingual zh-TW/vi)",
   "main": "server/relay.js",
   "scripts": {
     "start": "node server/relay.js"
