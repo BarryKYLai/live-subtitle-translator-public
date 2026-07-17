@@ -2,6 +2,7 @@
   "name": "live-subtitle-translator",
   "version": "0.1.0",
   "description": "Live speech-translation subtitle tool (bilingual zh-TW/vi)",
+  "license": "MIT",
   "main": "server/relay.js",
   "scripts": {
     "start": "node server/relay.js"

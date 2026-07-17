@@ -106,6 +106,10 @@ npm start
 - 離線引擎選項:本地 Whisper 辨識 + LLM 翻譯,沿用同一套 `Transcriber` 介面
 - 會後自動摘要(以累積的文字稿產生,不做錄音存檔)
 
+### 授權(License)
+
+本專案採 [MIT License](LICENSE) 授權。
+
 ---
 
 ## English
@@ -209,3 +213,7 @@ This is a **work-in-progress personal project**. It runs end-to-end on localhost
 - Desktop floating subtitles (Electron/Tauri transparent always-on-top window; `desktop/` is reserved)
 - Offline engine option: local Whisper for recognition + an LLM for translation, reusing the same `Transcriber` interface
 - Post-meeting auto-summary (generated from the accumulated transcript; no audio recording)
+
+### License
+
+This project is licensed under the [MIT License](LICENSE).
